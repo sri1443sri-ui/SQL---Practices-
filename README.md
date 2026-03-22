@@ -1,66 +1,27 @@
-Project Description
-
-This project contains SQL queries created to practice fundamental database concepts. The project focuses on retrieving, filtering, grouping, and analyzing data using SQL commands. It is designed for beginners who want to improve their understanding of database operations and query writing.
-
-The SQL files demonstrate how to use WHERE, ORDER BY, GROUP BY, and Aggregate Functions to manipulate and analyze student data efficiently.
+Project Overview
+    This repository contains SQL queries developed to practice and demonstrate fundamental database concepts. The project focuses on retrieving, filtering, sorting, grouping, and analyzing data using standard SQL commands. It is intended for students and beginners who want to build a strong foundation in SQL and understand how basic queries work in a relational database.The queries are written using a sample student table that includes attributes such as student ID, name, age, and final grade.
 
 Objectives
-Understand basic SQL syntax
-Learn how to filter data using WHERE clause
-Sort data using ORDER BY
-Group data using GROUP BY
-Perform calculations using Aggregate Functions
-Build strong foundation for SQL interviews
-Project Structure
+   1.To understand basic SQL syntax and structure
+   2.To practice retrieving data from a database table
+   3.To apply filtering conditions using WHERE clause
+   4.To sort query results using ORDER BY clause
+   5.To group data using GROUP BY clause
+   6.To perform calculations using aggregate functions
+   7.To develop SQL skills for academic and interview purposes
 
-The project includes SQL queries related to student database table.
-
-Table Name: student
-
-Columns used:
-
-ID
-Name
-Age
-Finalgrade
 SQL Concepts Covered
-1. WHERE Clause
+   1.WHERE Clause
+   2.ORDER BY Clause
+   3.GROUP BY Clause
+   4.Aggregate Functions
 
-Used to filter specific records based on condition.
+Tools Used
+  1.MySQL
+  2.SQL
 
-Example:
 
-SELECT * FROM student
-WHERE Age > 20;
-2. ORDER BY Clause
 
-Used to arrange data in ascending or descending order.
 
-Example:
 
-SELECT * FROM student
-ORDER BY Name ASC;
-3. GROUP BY Clause
 
-Used to group rows that have same values.
-
-Example:
-
-SELECT Finalgrade, COUNT(*)
-FROM student
-GROUP BY Finalgrade;
-4. Aggregate Functions
-
-Used to perform calculations on table data.
-
-Functions used:
-
-COUNT()
-AVG()
-SUM()
-MIN()
-MAX()
-
-Perform grouping operations
-Apply aggregate functions
-Understand basic database structure
