@@ -5,12 +5,19 @@ Project Description
 Objectives
 
    1.Understand basic SQL syntax
+   
    2.Learn how to filter data using WHERE clause
+   
    3.Sort data using ORDER BY
+   
    4.Group data using GROUP BY
+   
    5.Perform calculations using Aggregate Functions
+   
    6.Build strong foundation for SQL interviews
+   
    7.Project Structure
+   
 
 SQL Concepts Covered
 
